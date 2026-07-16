@@ -321,7 +321,7 @@
   </text>
   <text x="510" y="152" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="url(#name-gradient)" opacity="0">
     <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.3s" fill="freeze"/>
-    I'm Jarjis Alam
+    I'm Munshi Jarjis Alam
   </text>
 
   <!-- Animated Typing Text (Looping Carousel) -->
