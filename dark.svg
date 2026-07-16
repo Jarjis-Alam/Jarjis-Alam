@@ -365,7 +365,7 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze"/>
     <text x="510" y="238" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">📍</text>
     <text x="535" y="238" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#64748B">Location:</text>
-    <text x="635" y="238" font-family="system-ui, sans-serif" font-size="13.5" font-weight="500" fill="#F8FAFC">Global / Remote</text>
+    <text x="635" y="238" font-family="system-ui, sans-serif" font-size="13.5" font-weight="500" fill="#F8FAFC">West Bengal, India</text>
   </g>
 
   <!-- Line 2: Education -->
@@ -373,7 +373,7 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.7s" fill="freeze"/>
     <text x="510" y="268" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">🎓</text>
     <text x="535" y="268" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#64748B">Education:</text>
-    <text x="635" y="268" font-family="system-ui, sans-serif" font-size="13.5" font-weight="500" fill="#F8FAFC">B.Sc. in Computer Science</text>
+    <text x="635" y="268" font-family="system-ui, sans-serif" font-size="13.5" font-weight="500" fill="#F8FAFC">B.Tech in Computer Science and Engineering</text>
   </g>
 
   <!-- Line 3: Current Focus -->
@@ -381,7 +381,7 @@
     <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.9s" fill="freeze"/>
     <text x="510" y="298" font-family="system-ui, sans-serif" font-size="13" fill="#94A3B8">🚀</text>
     <text x="535" y="298" font-family="ui-monospace, monospace" font-size="13.5" font-weight="600" fill="#64748B">Focus:</text>
-    <text x="635" y="298" font-family="system-ui, sans-serif" font-size="13.5" font-weight="500" fill="#F8FAFC">AI Agents &amp; Intelligent Workflows</text>
+    <text x="635" y="298" font-family="system-ui, sans-serif" font-size="13.5" font-weight="500" fill="#F8FAFC">AI Agents, Systems Programming &amp; Modern UI/UX</text>
   </g>
 
   <!-- Line 4: Portfolio -->
