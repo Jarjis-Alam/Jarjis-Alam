@@ -30,49 +30,36 @@
 
 ## 👨‍💻 About Me
 
-<img align="right" width="340" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding animation"/>
-
-```python
-class Developer:
-    def __init__(self):
-        self.name = "Munshi Jarjis Alam"
-        self.roles = [
-            "Full-Stack Architect",
-            "AI Engineer"
-        ]
-        self.location = "India 🇮🇳"
-        self.education = "B.Tech Computer Science"
-
-    def tech_stack(self):
-        return {
-            "frontend": [
-                "React",
-                "Next.js",
-                "JavaScript",
-                "HTML/CSS"
-            ],
-            "backend": [
-                "Python",
-                "FastAPI",
-                "PostgreSQL",
-                "Supabase"
-            ],
-            "cloud_ai": [
-                "Docker",
-                "Git",
-                "Gemini API",
-                "Linux"
-            ]
-        }
-
-    def current_focus(self):
-        return [
-            "🚀 Building impactful software & AI workflows",
-            "🌱 Expanding distributed systems knowledge",
-            "👯 Open source collaborations & hackathons",
-            "⚡ Debugging with coffee ☕"
-        ]
-```
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>⚡ Full-Stack Architect & AI Engineer</h3>
+      <p>
+        Hey there! I'm <b>Munshi Jarjis Alam</b> from India 🇮🇳. I architect and build scalable, production-grade applications and intelligent AI-driven systems. Passionate about solving complex problems, building distributed architectures, and crafting seamless developer experiences.
+      </p>
+      <ul>
+        <li>🎓 <b>Education:</b> B.Tech in Computer Science</li>
+        <li>📍 <b>Location:</b> India 🇮🇳</li>
+        <li>🚀 <b>Currently Building:</b> Impactful software & agentic AI workflows</li>
+        <li>🌱 <b>Exploring:</b> Distributed systems, LLM orchestration & cloud infra</li>
+        <li>👯 <b>Open For:</b> Open-source collaborations, hackathons & research</li>
+        <li>☕ <b>Fuel:</b> Coffee & clean, testable code</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Jarjis-Alam?tab=repositories">
+          <img src="https://img.shields.io/badge/Explore_Projects-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e27" alt="Projects"/>
+        </a>
+        &nbsp;
+        <a href="mailto:jarjis.alam.cse@gmail.com">
+          <img src="https://img.shields.io/badge/Get_In_Touch-ff6b35?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Contact"/>
+        </a>
+      </p>
+    </td>
+    <td width="40%" align="center" valign="middle">
+      <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Cyberpunk Developer Coding"/>
+    </td>
+  </tr>
+</table>
 
 ## 🔥 Streak Stats
 
