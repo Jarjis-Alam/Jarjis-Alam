@@ -17,7 +17,7 @@
     <img src="https://img.shields.io/badge/GitHub-Jarjis--Alam-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e27" alt="GitHub"/>
   </a>
   &nbsp;
-  <a href="mailto:jarjis.alam.cse@gmail.com">
+  <a href="mailto:jarjisalam19@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-ff6b35?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Email"/>
   </a>
   &nbsp;
@@ -50,7 +50,7 @@
           <img src="https://img.shields.io/badge/Explore_Projects-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e27" alt="Projects"/>
         </a>
         &nbsp;
-        <a href="mailto:jarjis.alam.cse@gmail.com">
+        <a href="mailto:jarjisalam19@gmail.com">
           <img src="https://img.shields.io/badge/Get_In_Touch-ff6b35?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Contact"/>
         </a>
       </p>
@@ -106,8 +106,8 @@ Build useful software, explore emerging technologies, contribute to open source,
 ## ⚡ Open to Internships, Collaborations & Research
 
 <p align="center">
-  <a href="mailto:jarjis.alam.cse@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-jarjis.alam.cse@gmail.com-00d4ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Contact"/>
+  <a href="mailto:jarjisalam19@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-jarjisalam19@gmail.com-00d4ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Contact"/>
   </a>
 </p>
 
