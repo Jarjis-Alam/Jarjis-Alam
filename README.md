@@ -1,116 +1,36 @@
-<!-- HEADER WAVE -->
+<div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e27,50:0d4f8c,100:00d4ff&height=220&section=header&text=Munshi%20Jarjis%20Alam&fontSize=65&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Architect%20%7C%20AI%20Engineer%20%7C%20Explorer&descAlignY=55&descSize=18&animation=twinkling" alt="Header"/>
+![Intro](./assets/hero.svg?v=1)
 
-<!-- ANIMATED TYPING -->
+![About](./assets/about-life.svg?v=1)
 
-<p align="center">
-  <a href="https://github.com/Jarjis-Alam">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=650&height=45&lines=%F0%9F%9A%80+Building+Scalable+Apps+%26+AI+Systems;%F0%9F%92%A1+Turning+Ideas+Into+Production-Ready+Code;%E2%9A%A1+Python+%7C+React+%7C+Full-Stack+%7C+Docker" alt="Typing SVG"/>
-  </a>
-</p>
+![Stack](./assets/stack.svg?v=1)
 
-<!-- SOCIAL BADGES -->
+![ID](./assets/id-dashboard.svg?v=1)
 
-<p align="center">
-  <a href="https://github.com/Jarjis-Alam">
-    <img src="https://img.shields.io/badge/GitHub-Jarjis--Alam-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e27" alt="GitHub"/>
-  </a>
-  &nbsp;
-  <a href="mailto:jarjisalam19@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-ff6b35?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Email"/>
-  </a>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Jarjis-Alam&color=00d4ff&style=for-the-badge&label=Profile+Views&abbreviated=true" alt="Profile Views"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20Collabs-00ff88?style=for-the-badge&labelColor=0a0e27" alt="Open to internships and collaborations"/>
-</p>
+</div>
 
----
+### 🚀 Featured Engineering Projects
 
-## 👨‍💻 About Me
+| Project | Description | Tech Stack | Repository |
+| :--- | :--- | :--- | :--- |
+| **[Vortex](https://github.com/Jarjis-Alam/Vortex)** | Modern BitTorrent client built from scratch featuring multi-peer swarms, SHA-1 chunk verification, resume support, rarest-first piece selection, and a sleek desktop UI. | `Python` `PyQt6` `BitTorrent P2P` `Sockets` | [View Repo ↗](https://github.com/Jarjis-Alam/Vortex) |
+| **[LYADH_CODE](https://github.com/Jarjis-Alam/LYADH_CODE)** | AI-powered code review platform analyzing codebase quality, security vulnerabilities, AST patterns, and performance bottlenecks using modern LLMs. | `React` `Monaco Editor` `Node.js` `Express` `LLMs` | [View Repo ↗](https://github.com/Jarjis-Alam/LYADH_CODE) |
+| **[Lumora-AI-PDF](https://github.com/Jarjis-Alam/Lumora-AI-PDF)** | Intelligent document research workspace converting research papers and technical PDFs into interactive contextual AI exploration environments. | `TypeScript` `Vector Search` `RAG` `LLM APIs` | [View Repo ↗](https://github.com/Jarjis-Alam/Lumora-AI-PDF) |
 
-<table>
-  <tr>
-    <td width="60%" valign="top">
-      <h3>⚡ Full-Stack Architect & AI Engineer</h3>
-      <p>
-        Hey there! I'm <b>Munshi Jarjis Alam</b> from India 🇮🇳. I architect and build scalable, production-grade applications and intelligent AI-driven systems. Passionate about solving complex problems, building distributed architectures, and crafting seamless developer experiences.
-      </p>
-      <ul>
-        <li>🎓 <b>Education:</b> B.Tech in Computer Science</li>
-        <li>📍 <b>Location:</b> India 🇮🇳</li>
-        <li>🚀 <b>Currently Building:</b> Impactful software & agentic AI workflows</li>
-        <li>🌱 <b>Exploring:</b> Distributed systems, LLM orchestration & cloud infra</li>
-        <li>👯 <b>Open For:</b> Open-source collaborations, hackathons & research</li>
-        <li>☕ <b>Fuel:</b> Coffee & clean, testable code</li>
-      </ul>
-      <p>
-        <a href="https://github.com/Jarjis-Alam?tab=repositories">
-          <img src="https://img.shields.io/badge/Explore_Projects-00d4ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0e27" alt="Projects"/>
-        </a>
-        &nbsp;
-        <a href="mailto:jarjisalam19@gmail.com">
-          <img src="https://img.shields.io/badge/Get_In_Touch-ff6b35?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Contact"/>
-        </a>
-      </p>
-    </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Cyberpunk Developer Coding"/>
-    </td>
-  </tr>
-</table>
+<br/>
 
-## 🔥 Streak Stats
+<div align="center">
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jarjis-Alam/Jarjis-Alam/main/github-streak-stats.svg" alt="GitHub Streak Stats"/>
-</p>
+![Connect](./assets/connect.svg?v=1)
 
-## 🛠️ Tech Stack & Tools
+### 📬 Connect & Collaborate
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,typescript,react,nextjs,html,css,fastapi,postgres,mysql,supabase,docker,git,github,linux&perline=8" alt="Technology stack"/>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Munshi_Jarjis_Alam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jarjisalam/)
+[![GitHub](https://img.shields.io/badge/GitHub-@Jarjis--Alam-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jarjis-Alam)
+[![Instagram](https://img.shields.io/badge/Instagram-@jarvis._exe_-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/jarvis._exe_)
+[![Email](https://img.shields.io/badge/Email-jarjisalam19@gmail.com-ff354f?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jarjisalam19@gmail.com)
 
-## 🕹️ Pac-Man Eats My Contributions!
+<sub>Crafted with precision • Powered by self-contained SVG telemetry • © 2026 Munshi Jarjis Alam</sub>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jarjis-Alam/Jarjis-Alam/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph"/>
-</p>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jarjis-Alam/Jarjis-Alam/output/github-snake.svg" alt="GitHub contribution snake"/>
-</p>
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Jarjis-Alam/Jarjis-Alam/main/github-stats.svg" alt="GitHub Statistics"/>
-  <br/>
-  <img src="https://raw.githubusercontent.com/Jarjis-Alam/Jarjis-Alam/main/top-languages.svg" alt="Top Languages"/>
-</p>
-
-## 🌟 Mission Statement
-
-Build useful software, explore emerging technologies, contribute to open source, and turn ambitious ideas into reliable production systems.
-
-## 💬 Random Dev Quote
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random developer quote"/>
-</p>
-
-## ⚡ Open to Internships, Collaborations & Research
-
-<p align="center">
-  <a href="mailto:jarjisalam19@gmail.com">
-    <img src="https://img.shields.io/badge/Contact-jarjisalam19@gmail.com-00d4ff?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0e27" alt="Contact"/>
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,50:0d4f8c,100:0a0e27&height=100&section=footer" alt="Footer"/>
-</p>
+</div>
