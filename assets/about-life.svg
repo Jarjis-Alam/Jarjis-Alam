@@ -60,15 +60,18 @@
     /* Progress Indicators (12s total cycle = 3 segments x 4s) */
     .about-prog-fill-1 {
       animation: progFill1 12s infinite linear;
-      transform-origin: left;
+      transform-box: fill-box;
+      transform-origin: 0% 50%;
     }
     .about-prog-fill-2 {
       animation: progFill2 12s infinite linear;
-      transform-origin: left;
+      transform-box: fill-box;
+      transform-origin: 0% 50%;
     }
     .about-prog-fill-3 {
       animation: progFill3 12s infinite linear;
-      transform-origin: left;
+      transform-box: fill-box;
+      transform-origin: 0% 50%;
     }
 
     @keyframes progFill1 {
@@ -87,7 +90,7 @@
       97%, 100% { transform: scaleX(0); }
     }
 
-    /* Carousel Slides Transitions */
+    /* Carousel Slides Transitions - Pure Opacity (Locked coordinates, zero jump/clipping) */
     .about-slide-1 {
       animation: slideFade1 12s infinite ease-in-out;
     }
@@ -99,19 +102,19 @@
     }
 
     @keyframes slideFade1 {
-      0%, 28% { opacity: 1; transform: translateY(0); }
-      33.3%, 95% { opacity: 0; transform: translateY(-8px); }
-      98%, 100% { opacity: 1; transform: translateY(0); }
+      0%, 28% { opacity: 1; }
+      33.3%, 94.7% { opacity: 0; }
+      100% { opacity: 1; }
     }
     @keyframes slideFade2 {
-      0%, 28% { opacity: 0; transform: translateY(8px); }
-      33.3%, 61.3% { opacity: 1; transform: translateY(0); }
-      66.6%, 100% { opacity: 0; transform: translateY(-8px); }
+      0%, 28% { opacity: 0; }
+      33.3%, 61.3% { opacity: 1; }
+      66.6%, 100% { opacity: 0; }
     }
     @keyframes slideFade3 {
-      0%, 61.3% { opacity: 0; transform: translateY(8px); }
-      66.6%, 94.6% { opacity: 1; transform: translateY(0); }
-      98%, 100% { opacity: 0; transform: translateY(-8px); }
+      0%, 61.3% { opacity: 0; }
+      66.6%, 94.7% { opacity: 1; }
+      100% { opacity: 0; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -190,131 +193,152 @@
     </g>
   </g>
 
-  <!-- RIGHT CARD: LIFE / INTERESTS CAROUSEL (x=438, y=24, w=388, h=312) -->
-  <g transform="translate(438, 24)">
-    <rect width="388" height="312" rx="16" fill="#091122" stroke="#16243f" stroke-width="1" />
-    <rect width="388" height="312" rx="16" fill="url(#about-dots)" opacity="0.5" />
+  <!-- RIGHT CARD: LIFE / INTERESTS CAROUSEL (x=436, y=24, w=390, h=312) -->
+  <g transform="translate(436, 24)">
+    <rect width="390" height="312" rx="16" fill="#091122" stroke="#16243f" stroke-width="1" />
+    <rect width="390" height="312" rx="16" fill="url(#about-dots)" opacity="0.5" />
 
     <!-- Card Header -->
-    <text x="24" y="32" fill="#ff354f" font-size="11" font-weight="700" letter-spacing="1.5" class="about-font-mono">// ROTATING INTERESTS</text>
-    <text x="24" y="60" fill="#f0f6fc" font-size="24" font-weight="700" class="about-font-display">LIFE &amp; PASSIONS</text>
+    <text x="20" y="32" fill="#ff354f" font-size="11" font-weight="700" letter-spacing="1.5" class="about-font-mono">// TECHNICAL EXPLORATION</text>
+    <text x="20" y="58" fill="#f0f6fc" font-size="22" font-weight="700" class="about-font-display">CORE FOCUS AREAS</text>
     
-    <text x="364" y="58" text-anchor="end" fill="#475569" font-size="11" font-weight="600" class="about-font-mono">[ 4s / SLIDE ]</text>
+    <text x="368" y="56" text-anchor="end" fill="#475569" font-size="10.5" font-weight="600" class="about-font-mono">[ 4s / CYCLE ]</text>
 
-    <!-- 3 Segment Progress Indicators -->
-    <g transform="translate(24, 74)">
+    <!-- 3 Segment Progress Indicators (w=348, aligned to slide card) -->
+    <g transform="translate(20, 72)">
       <!-- Track 1 -->
-      <rect x="0" y="0" width="108" height="3.5" rx="2" fill="#16243f" />
-      <rect x="0" y="0" width="108" height="3.5" rx="2" fill="url(#about-bar-active)" class="about-prog-fill-1" />
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="110" height="3.5" rx="2" fill="#16243f" />
+        <rect x="0" y="0" width="110" height="3.5" rx="2" fill="url(#about-bar-active)" class="about-prog-fill-1" />
+      </g>
 
       <!-- Track 2 -->
-      <rect x="116" y="0" width="108" height="3.5" rx="2" fill="#16243f" />
-      <rect x="116" y="0" width="108" height="3.5" rx="2" fill="url(#about-bar-active)" class="about-prog-fill-2" />
+      <g transform="translate(119, 0)">
+        <rect x="0" y="0" width="110" height="3.5" rx="2" fill="#16243f" />
+        <rect x="0" y="0" width="110" height="3.5" rx="2" fill="url(#about-bar-active)" class="about-prog-fill-2" />
+      </g>
 
       <!-- Track 3 -->
-      <rect x="232" y="0" width="108" height="3.5" rx="2" fill="#16243f" />
-      <rect x="232" y="0" width="108" height="3.5" rx="2" fill="url(#about-bar-active)" class="about-prog-fill-3" />
+      <g transform="translate(238, 0)">
+        <rect x="0" y="0" width="110" height="3.5" rx="2" fill="#16243f" />
+        <rect x="0" y="0" width="110" height="3.5" rx="2" fill="url(#about-bar-active)" class="about-prog-fill-3" />
+      </g>
     </g>
 
     <!-- SLIDE 1: Full-Stack & Developer Tooling (0s - 4s) -->
-    <g class="about-slide-1" transform="translate(24, 98)">
-      <rect width="340" height="194" rx="12" fill="#0c152a" stroke="#1d2d50" stroke-width="1" />
-      
-      <!-- Slide Badge -->
-      <g transform="translate(16, 16)">
-        <rect width="74" height="22" rx="6" fill="#26101c" stroke="#ff354f" stroke-width="1" />
-        <text x="37" y="15" text-anchor="middle" fill="#ff7588" font-size="10.5" font-weight="700" class="about-font-mono">SLIDE 01</text>
-        <text x="84" y="16" fill="#94a3b8" font-size="11.5" font-weight="600" class="about-font-mono">TOOLING</text>
-      </g>
+    <g transform="translate(20, 88)">
+      <g class="about-slide-1">
+        <rect width="348" height="206" rx="14" fill="#0c152a" stroke="#1d2d50" stroke-width="1.2" />
+        
+        <!-- Slide Badge -->
+        <g transform="translate(18, 16)">
+          <rect width="70" height="20" rx="5" fill="#26101c" stroke="#ff354f" stroke-width="1" />
+          <text x="35" y="14" text-anchor="middle" fill="#ff7588" font-size="10" font-weight="700" class="about-font-mono">SLIDE 01</text>
+          <text x="80" y="15" fill="#94a3b8" font-size="11" font-weight="600" class="about-font-mono">DEV TOOLING</text>
+        </g>
 
-      <text x="16" y="64" fill="#ffffff" font-size="17" font-weight="700" class="about-font-display">Full-Stack &amp; Dev Tooling</text>
-      <text x="16" y="84" fill="#38bdf8" font-size="12" font-weight="600" class="about-font-mono">Code Quality &amp; AST Analysis</text>
+        <text x="18" y="62" fill="#ffffff" font-size="16.5" font-weight="700" class="about-font-display">Full-Stack &amp; Dev Tooling</text>
+        <text x="18" y="80" fill="#38bdf8" font-size="11.5" font-weight="600" class="about-font-mono">Code Review &amp; AST Analysis</text>
 
-      <text x="16" y="110" fill="#94a3b8" font-size="12.5" font-weight="400" class="about-font-display">
-        Engineering developer tools: AST syntax analysis, Monaco
-      </text>
-      <text x="16" y="128" fill="#94a3b8" font-size="12.5" font-weight="400" class="about-font-display">
-        IDE integration, and intelligent code review platforms.
-      </text>
+        <text x="18" y="106" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          Architecting AST-driven code review platforms,
+        </text>
+        <text x="18" y="124" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          Monaco editor integrations, and automated
+        </text>
+        <text x="18" y="142" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          codebase inspection workflows.
+        </text>
 
-      <!-- Tags -->
-      <g transform="translate(16, 150)">
-        <rect x="0" y="0" width="102" height="22" rx="6" fill="#111c33" />
-        <text x="51" y="15" text-anchor="middle" fill="#79c0ff" font-size="10.5" font-weight="600" class="about-font-mono">React / Node.js</text>
+        <!-- Tags -->
+        <g transform="translate(18, 164)">
+          <rect x="0" y="0" width="96" height="22" rx="6" fill="#111c33" />
+          <text x="48" y="15" text-anchor="middle" fill="#79c0ff" font-size="10.5" font-weight="600" class="about-font-mono">React / Node.js</text>
 
-        <rect x="108" y="0" width="96" height="22" rx="6" fill="#111c33" />
-        <text x="156" y="15" text-anchor="middle" fill="#79c0ff" font-size="10.5" font-weight="600" class="about-font-mono">Monaco IDE</text>
+          <rect x="104" y="0" width="88" height="22" rx="6" fill="#111c33" />
+          <text x="148" y="15" text-anchor="middle" fill="#79c0ff" font-size="10.5" font-weight="600" class="about-font-mono">Monaco IDE</text>
 
-        <rect x="210" y="0" width="94" height="22" rx="6" fill="#111c33" />
-        <text x="257" y="15" text-anchor="middle" fill="#79c0ff" font-size="10.5" font-weight="600" class="about-font-mono">AST Engines</text>
+          <rect x="200" y="0" width="88" height="22" rx="6" fill="#111c33" />
+          <text x="244" y="15" text-anchor="middle" fill="#79c0ff" font-size="10.5" font-weight="600" class="about-font-mono">AST Engines</text>
+        </g>
       </g>
     </g>
 
     <!-- SLIDE 2: P2P Protocols & BitTorrent (4s - 8s) -->
-    <g class="about-slide-2" transform="translate(24, 98)" style="opacity:0;">
-      <rect width="340" height="194" rx="12" fill="#0c152a" stroke="#1d2d50" stroke-width="1" />
-      
-      <!-- Slide Badge -->
-      <g transform="translate(16, 16)">
-        <rect width="74" height="22" rx="6" fill="#0d2038" stroke="#247bff" stroke-width="1" />
-        <text x="37" y="15" text-anchor="middle" fill="#38bdf8" font-size="10.5" font-weight="700" class="about-font-mono">SLIDE 02</text>
-        <text x="84" y="16" fill="#94a3b8" font-size="11.5" font-weight="600" class="about-font-mono">SYSTEMS</text>
-      </g>
+    <g transform="translate(20, 88)">
+      <g class="about-slide-2" style="opacity:0;">
+        <rect width="348" height="206" rx="14" fill="#0c152a" stroke="#1d2d50" stroke-width="1.2" />
+        
+        <!-- Slide Badge -->
+        <g transform="translate(18, 16)">
+          <rect width="70" height="20" rx="5" fill="#0d2038" stroke="#247bff" stroke-width="1" />
+          <text x="35" y="14" text-anchor="middle" fill="#38bdf8" font-size="10" font-weight="700" class="about-font-mono">SLIDE 02</text>
+          <text x="80" y="15" fill="#94a3b8" font-size="11" font-weight="600" class="about-font-mono">SYSTEMS</text>
+        </g>
 
-      <text x="16" y="64" fill="#ffffff" font-size="17" font-weight="700" class="about-font-display">P2P Networks &amp; BitTorrent</text>
-      <text x="16" y="84" fill="#34d399" font-size="12" font-weight="600" class="about-font-mono">Low-Level Protocol Architecture</text>
+        <text x="18" y="62" fill="#ffffff" font-size="16.5" font-weight="700" class="about-font-display">P2P Networks &amp; BitTorrent</text>
+        <text x="18" y="80" fill="#34d399" font-size="11.5" font-weight="600" class="about-font-mono">Low-Level Protocol Architecture</text>
 
-      <text x="16" y="110" fill="#94a3b8" font-size="12.5" font-weight="400" class="about-font-display">
-        Dissecting the BitTorrent protocol from scratch: peer wire
-      </text>
-      <text x="16" y="128" fill="#94a3b8" font-size="12.5" font-weight="400" class="about-font-display">
-        handshakes, SHA-1 verification &amp; rarest-first swarm downloads.
-      </text>
+        <text x="18" y="106" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          Dissecting the BitTorrent protocol from scratch:
+        </text>
+        <text x="18" y="124" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          peer wire handshakes, SHA-1 chunk hashing,
+        </text>
+        <text x="18" y="142" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          and rarest-first swarm piece downloads.
+        </text>
 
-      <!-- Tags -->
-      <g transform="translate(16, 150)">
-        <rect x="0" y="0" width="102" height="22" rx="6" fill="#111c33" />
-        <text x="51" y="15" text-anchor="middle" fill="#34d399" font-size="10.5" font-weight="600" class="about-font-mono">P2P Protocols</text>
+        <!-- Tags -->
+        <g transform="translate(18, 164)">
+          <rect x="0" y="0" width="96" height="22" rx="6" fill="#111c33" />
+          <text x="48" y="15" text-anchor="middle" fill="#34d399" font-size="10.5" font-weight="600" class="about-font-mono">BitTorrent P2P</text>
 
-        <rect x="108" y="0" width="92" height="22" rx="6" fill="#111c33" />
-        <text x="154" y="15" text-anchor="middle" fill="#34d399" font-size="10.5" font-weight="600" class="about-font-mono">Networking</text>
+          <rect x="104" y="0" width="94" height="22" rx="6" fill="#111c33" />
+          <text x="151" y="15" text-anchor="middle" fill="#34d399" font-size="10.5" font-weight="600" class="about-font-mono">Python / PyQt6</text>
 
-        <rect x="206" y="0" width="98" height="22" rx="6" fill="#111c33" />
-        <text x="255" y="15" text-anchor="middle" fill="#34d399" font-size="10.5" font-weight="600" class="about-font-mono">Concurrency</text>
+          <rect x="206" y="0" width="74" height="22" rx="6" fill="#111c33" />
+          <text x="243" y="15" text-anchor="middle" fill="#34d399" font-size="10.5" font-weight="600" class="about-font-mono">Sockets</text>
+        </g>
       </g>
     </g>
 
     <!-- SLIDE 3: Agentic AI & Intelligence (8s - 12s) -->
-    <g class="about-slide-3" transform="translate(24, 98)" style="opacity:0;">
-      <rect width="340" height="194" rx="12" fill="#0c152a" stroke="#1d2d50" stroke-width="1" />
-      
-      <!-- Slide Badge -->
-      <g transform="translate(16, 16)">
-        <rect width="74" height="22" rx="6" fill="#1d1538" stroke="#8b5cf6" stroke-width="1" />
-        <text x="37" y="15" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="700" class="about-font-mono">SLIDE 03</text>
-        <text x="84" y="16" fill="#94a3b8" font-size="11.5" font-weight="600" class="about-font-mono">AI RESEARCH</text>
-      </g>
+    <g transform="translate(20, 88)">
+      <g class="about-slide-3" style="opacity:0;">
+        <rect width="348" height="206" rx="14" fill="#0c152a" stroke="#1d2d50" stroke-width="1.2" />
+        
+        <!-- Slide Badge -->
+        <g transform="translate(18, 16)">
+          <rect width="70" height="20" rx="5" fill="#1d1538" stroke="#8b5cf6" stroke-width="1" />
+          <text x="35" y="14" text-anchor="middle" fill="#c084fc" font-size="10" font-weight="700" class="about-font-mono">SLIDE 03</text>
+          <text x="80" y="15" fill="#94a3b8" font-size="11" font-weight="600" class="about-font-mono">AI RESEARCH</text>
+        </g>
 
-      <text x="16" y="64" fill="#ffffff" font-size="17" font-weight="700" class="about-font-display">Agentic AI &amp; Document Intel</text>
-      <text x="16" y="84" fill="#a78bfa" font-size="12" font-weight="600" class="about-font-mono">Intelligent Workspaces &amp; RAG</text>
+        <text x="18" y="62" fill="#ffffff" font-size="16.5" font-weight="700" class="about-font-display">Agentic AI &amp; Document Intel</text>
+        <text x="18" y="80" fill="#a78bfa" font-size="11.5" font-weight="600" class="about-font-mono">Intelligent Workspaces &amp; RAG</text>
 
-      <text x="16" y="110" fill="#94a3b8" font-size="12.5" font-weight="400" class="about-font-display">
-        Building AI document research workspaces (Lumora) and
-      </text>
-      <text x="16" y="128" fill="#94a3b8" font-size="12.5" font-weight="400" class="about-font-display">
-        automated code audit platforms (LYADH_CODE) powered by LLMs.
-      </text>
+        <text x="18" y="106" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          Engineering document research workspaces (Lumora)
+        </text>
+        <text x="18" y="124" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          and LLM audit engines with contextual
+        </text>
+        <text x="18" y="142" fill="#94a3b8" font-size="11.5" font-weight="400" class="about-font-display">
+          vector search and semantic chunking.
+        </text>
 
-      <!-- Tags -->
-      <g transform="translate(16, 150)">
-        <rect x="0" y="0" width="102" height="22" rx="6" fill="#111c33" />
-        <text x="51" y="15" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="600" class="about-font-mono">RAG Workflows</text>
+        <!-- Tags -->
+        <g transform="translate(18, 164)">
+          <rect x="0" y="0" width="92" height="22" rx="6" fill="#111c33" />
+          <text x="46" y="15" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="600" class="about-font-mono">Vector Search</text>
 
-        <rect x="108" y="0" width="98" height="22" rx="6" fill="#111c33" />
-        <text x="157" y="15" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="600" class="about-font-mono">Vector Search</text>
+          <rect x="100" y="0" width="94" height="22" rx="6" fill="#111c33" />
+          <text x="147" y="15" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="600" class="about-font-mono">RAG Pipelines</text>
 
-        <rect x="212" y="0" width="94" height="22" rx="6" fill="#111c33" />
-        <text x="259" y="15" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="600" class="about-font-mono">Agent Loops</text>
+          <rect x="202" y="0" width="74" height="22" rx="6" fill="#111c33" />
+          <text x="239" y="15" text-anchor="middle" fill="#c084fc" font-size="10.5" font-weight="600" class="about-font-mono">LLM APIs</text>
+        </g>
       </g>
     </g>
   </g>
